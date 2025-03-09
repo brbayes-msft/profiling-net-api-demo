@@ -11,6 +11,7 @@
     <ContainerFamily>cbl-mariner2.0</ContainerFamily>
     <RuntimeIdentifiers>linux-x64;linux-arm64</RuntimeIdentifiers>
     <ContainerImageTag>$(TargetFramework)</ContainerImageTag>
+    <ContainerImageFormat>OCI</ContainerImageFormat>
     <ContainerArchiveOutputPath>$(RepoRoot)/artifacts/containers/</ContainerArchiveOutputPath>
   </PropertyGroup>
 
